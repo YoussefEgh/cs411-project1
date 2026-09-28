@@ -10,37 +10,37 @@
 ---
 
 ## Student Information 
-- **Name:** [Write your Name here]
-- **UID (netID):** [Write your UID (netID) here]
-- **UIN:** [Write your UIN here]
+- **Name:** Youssef Elghawabi
+- **UID (netID):** yelgh2
+- **UIN:** 676467851
 
 ---
 
 ## Section 1: Selected City Region
-- **Selected Region:** [Write your selected region here (must be a USA-based region, e.g., a US state or city region)]
+- **Selected Region:** Illinois
 
 ---
 
 ## Section 2: Map Graph Configuration
-- **Total Cities Configured:** [Write total number of cities here, must be 20 or more]
-- **Total Connection Edges:** [Write total number of highway connection edges here]
-- **Graph Fully Connected:** [Write Yes or No here]
+- **Total Cities Configured:** 22
+- **Total Connection Edges:** 35
+- **Graph Fully Connected:** Yes
 
 ---
 
 ## Section 3: Local Verification & Search Algorithms
 *Check the algorithms you successfully ran and verified on your local development server by placing an `x` in the brackets (e.g., `[x]`):*
-- [ ] Breadth-First Search (BFS)
-- [ ] Depth-First Search (DFS)
-- [ ] Uniform Cost Search (UCS)
-- [ ] Iterative Deepening Search (IDS)
-- [ ] Greedy Best-First Search (Greedy)
-- [ ] A* Search (A*)
+- [X] Breadth-First Search (BFS)
+- [X] Depth-First Search (DFS)
+- [X] Uniform Cost Search (UCS)
+- [X] Iterative Deepening Search (IDS)
+- [X] Greedy Best-First Search (Greedy)
+- [X] A* Search (A*)
 
 ---
 
 ## Section 4: Deployed and Presentation Information
-- **Deployment Platform:** [Write your deployment platform here, e.g., Render]
+- **Deployment Platform:** Render
 - **Live Deployment URL:** [Provide your live deployment site URL here]
 - **Video Presentation Link:** [Provide an accessible link to your 5–7 minute video presentation]
 
@@ -48,8 +48,8 @@
 
 ## Section 5: Discussion
 - **Which search algorithm is best for this route finding problem?** 
-    [Write your answer here]
-- **Search Efficiency (Nodes expanded/time taken comparison):** [Write your answer here comparing search efficiency in terms of number of nodes visited and runtime across different algorithms]
+    A* is the best because when I ran multiple search paths, for example, from Chicago to Rockford, the A* search and greedy had the lowest total cost out of all other searches. A* is better than greedy because even though they have the same total cost, A* finds the path in less nodes expanded.
+- **Search Efficiency (Nodes expanded/time taken comparison):** [Write your answer here comparing search efficiency in terms of number of snodes visited and runtime across different algorithms]
 - **Link the idea of search algorithm to today Generative AI.** 
-    [Write your answer here]
+    Search algorithms are used for Generative AI because have to choose between many options to find the best possible output based on probabilities. The algorithm explores different possible paths and uses data to decide which path to use next similar to search algorithms like A* and greedy search. So, they are very similar in how they are searching through a large number of possibilities.
 
